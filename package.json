@@ -1,6 +1,6 @@
 {
   "name": "lexical-shared-dk",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "main": "dist/Editor.js",
   "module": "dist/Editor.js",
   "types": "dist/Editor.d.ts",
