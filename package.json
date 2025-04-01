@@ -6,10 +6,11 @@
   "types": "dist/Editor.d.ts",
   "files": [
     "dist",
-    "src/styles.css"
+    "src/*.css"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && node copy-css.js",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@lexical/html": "^0.29.0",
@@ -18,12 +19,13 @@
     "@lexical/react": "^0.29.0",
     "@lexical/rich-text": "^0.28.0",
     "@lexical/utils": "^0.28.0",
-    "cpy": "^11.1.0",
     "lexical": "^0.29.0",
     "react": "^19.0.0"
   },
   "devDependencies": {
     "@types/react": "^19.0.10",
+    "cpy-cli": "^5.0.0",
+    "fs-extra": "^11.3.0",
     "typescript": "^5.8.2"
   }
 }
