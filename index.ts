@@ -1,1 +1,1 @@
-export { default as LexicalEditor } from "./src/components/LexicalEditor";
+export { default as EditorWrapperDK } from "./src/Editor";

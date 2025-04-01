@@ -2,6 +2,8 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/rea
 import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
 import LexicalEditor from '../components/LexicalEditor';
+import EditorWrapper from '../components/Editor/Editor';
+import EditorWrapperDK from 'lexical-shared-dk'
 
 const Home: React.FC = () => {
   return (
@@ -14,11 +16,10 @@ const Home: React.FC = () => {
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
+            <IonTitle size="large">Tests</IonTitle>
           </IonToolbar>
         </IonHeader>
-        {/* <ExploreContainer /> */}
-        <LexicalEditor/>
+        <EditorWrapperDK />
       </IonContent>
     </IonPage>
   );

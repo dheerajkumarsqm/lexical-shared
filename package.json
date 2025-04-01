@@ -1,20 +1,29 @@
 {
   "name": "lexical-shared-dk",
-  "version": "1.0.4",
-  "main": "dist/LexicalEditor.js",
-  "module": "dist/LexicalEditor.js",
-  "types": "dist/LexicalEditor.d.ts",
-  "files": ["dist"],
+  "version": "1.0.14",
+  "main": "dist/Editor.js",
+  "module": "dist/Editor.js",
+  "types": "dist/Editor.d.ts",
+  "files": [
+    "dist",
+    "src/styles.css"
+  ],
   "scripts": {
     "build": "tsc"
   },
   "dependencies": {
+    "@lexical/html": "^0.29.0",
+    "@lexical/link": "^0.29.0",
+    "@lexical/list": "^0.29.0",
     "@lexical/react": "^0.29.0",
+    "@lexical/rich-text": "^0.28.0",
+    "@lexical/utils": "^0.28.0",
+    "cpy": "^11.1.0",
     "lexical": "^0.29.0",
     "react": "^19.0.0"
   },
   "devDependencies": {
-    "@types/react": "^19.0.12",
+    "@types/react": "^19.0.10",
     "typescript": "^5.8.2"
   }
 }
