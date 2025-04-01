@@ -1,0 +1,20 @@
+{
+  "name": "lexical-shared-dk",
+  "version": "1.0.4",
+  "main": "dist/LexicalEditor.js",
+  "module": "dist/LexicalEditor.js",
+  "types": "dist/LexicalEditor.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@lexical/react": "^0.29.0",
+    "lexical": "^0.29.0",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.12",
+    "typescript": "^5.8.2"
+  }
+}
